@@ -1,0 +1,12 @@
+.card {
+    background: rgb(190, 189, 189);
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.card:hover {
+    background: blue; 
+    cursor: pointer;
+}
