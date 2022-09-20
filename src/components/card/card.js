@@ -1,11 +1,10 @@
 import React from 'react'
 import './card.css'
 
-export const Card = ({title}) => {
+export const Card = (props) => {
     return (
         <div className='card'>
-            <h3>{title}</h3>
-            <p>Este é um parágrafo</p>
+            {props.children}
         </div>
     )
 }
