@@ -5,9 +5,9 @@ import { Card } from './components/card/card.js'
 function App() {
   return (
     <>
-      <Card />
-      <Card />
-      <Card />
+      <Card title="Titulo do card 1"/>
+      <Card title="Titulo do card 2"/>
+      <Card title="Titulo do card 3"/>
       <Button />
       <Button />
     </>
