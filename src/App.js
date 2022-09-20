@@ -20,7 +20,7 @@ function App() {
         <p>Esse é um texto do card</p>
         <button>Enviar</button>
       </Card>
-      <Button />
+      <Button label="Baixar CV"/>
       <Button />
     </>
   );

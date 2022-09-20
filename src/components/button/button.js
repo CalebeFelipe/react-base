@@ -1,5 +1,9 @@
 import './button.css'
 
-export const Button = () => {
-    return <button className="btn">Clique aqui</button>
+export const Button = ({label}) => {
+    return <button className="btn">{label}</button>
+}
+
+Button.defaultProps = {
+    label: 'Clique aqui'
 }
