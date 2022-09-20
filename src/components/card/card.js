@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import './card.css'
 
 export const Card = ({children}) => {
@@ -9,7 +9,7 @@ export const Card = ({children}) => {
     )
 }
 
-// export class Card extends React.Component {
+// export class CardClasse extends Component {
 //     render() {
 //         return (
 //             <div className="card">
