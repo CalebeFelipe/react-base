@@ -1,12 +1,17 @@
 import React, { Component } from 'react'
 import './card.css'
 
-export const Card = ({children}) => {
+export const Card = ({children, bgColor, color, showCardColor}) => {
     return (
-        <div className='card'>
+        <div className='card' style={{backgroundColor: bgColor, color}} onClick={() => showCardColor(bgColor)}>
             {children}
         </div>
     )
+}
+
+Card.defaultProps = {
+    bgColor: 'orange',
+    color: 'white'
 }
 
 // export class CardClasse extends Component {
