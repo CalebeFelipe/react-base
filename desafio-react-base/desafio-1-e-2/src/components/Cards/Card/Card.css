@@ -1,0 +1,7 @@
+div.card{
+    width: 200px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    text-align: center;
+    color: blue;
+}
